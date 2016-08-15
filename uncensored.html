@@ -22,12 +22,34 @@
 <link rel="stylesheet" href="hamburgler.css">
 
 
-
+4   <SCRIPT LANGUAGE="JAVASCRIPT">
+5   <--
+6   var bgNum = Math.round(Math.random() * 5)
+7
+8   bgSel = new Array(6);
+9   bgSel[0] = "images/belding.png";
+10  bgSel[1] = "images/niceday.png";
+11  bgSel[2] = "images/niceday2.png";
+12  bgSel[3] = "images/moon.png";
+13  bgSel[4] = "images/faces.jpg";
+14  bgSel[5] = "images/forest.png";
+15
+16  var base = bgSel[bgNum];
+17
+18  //-->
+19  </SCRIPT>
 
 
 </head>
 <body>
-<body background="images/trip.jpg">
+
+
+21  <SCRIPT LANGUAGE="JAVASCRIPT">
+22  <--
+23  document.write("<BODY BACKGROUND='" + base + "'>");
+24  //-->
+25  </SCRIPT>
+
 
  <div class="mobilenav">
     <li><a href="index.html">Main Page</a></li>
