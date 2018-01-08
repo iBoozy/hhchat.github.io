@@ -1,0 +1,2 @@
+<center><embed src="http://iboozy.github.io/hhchat.github.io/avatarcreate.swf" quality="high" wmode="direct" type="application/x-shockwave-flash" width="950" height="700" allowfullscreen="true" allowfullscreeninteractive="true" allowscriptaccess="always">
+<br>
