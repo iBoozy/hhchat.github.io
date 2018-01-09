@@ -1,0 +1,19 @@
+body{
+  width:90%;
+  margin:70px 0px 15px 130px;;
+}
+
+table:first-child{
+background-color: blue;
+  color:white;
+  margin-right: 1%;
+}
+
+table:nth-child(2n){
+  color:white;
+}
+
+table{
+  width:30%;
+  float:left;
+}
