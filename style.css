@@ -1,6 +1,10 @@
+
+
 body{
-  width:90%;
-  margin:70px 0px 15px 130px;;
+  width: 100%;
+  height:auto;
+  margin: auto;
+  padding: 100px 0px 0px 0px;
 }
 
 table:first-child{
@@ -14,6 +18,22 @@ table:nth-child(2n){
 }
 
 table{
-  width:30%;
-  float:left;
+  width:100%;
+  float:center;
+}
+
+iframe{
+   position: absolute;
+   right: 6;
+   bottom: 0;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-weight:bold;
+   font-size:16px;
+   color: white;
+   text-align: center;
 }
