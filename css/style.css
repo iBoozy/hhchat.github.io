@@ -1,0 +1,67 @@
+@-webkit-keyframes bzybg1 {
+    0%{background-position:0% 14%}
+    50%{background-position:100% 87%}
+    100%{background-position:0% 14%}
+}
+@-moz-keyframes bzybg1 {
+    0%{background-position:0% 14%}
+    50%{background-position:100% 87%}
+    100%{background-position:0% 14%}
+}
+@-o-keyframes bzybg1 {
+    0%{background-position:0% 14%}
+    50%{background-position:100% 87%}
+    100%{background-position:0% 14%}
+}
+@keyframes bzybg1 {
+    0%{background-position:0% 14%}
+    50%{background-position:100% 87%}
+    100%{background-position:0% 14%}
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 2px;
+}
+
+.left {
+  width: 25%;
+  height: 100vh ;
+}
+
+.right {
+  width: 75%;
+  height: 100vh ;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    height: 100vh ; 
+	width:100%;
+	margin:0px;
+	padding:0px;
+
+	
+background: linear-gradient(136deg, #abec8d, #5dc6be, #8975b9, #6e5894, #d4b080);
+background-size: 1000% 1000%;
+-webkit-animation: bzybg1 59s ease infinite;
+-moz-animation: bzybg1 59s ease infinite;
+-o-animation: bzybg1 59s ease infinite;
+animation: bzybg1 59s ease infinite;
+	}
+
+
+
+
